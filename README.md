@@ -1,6 +1,10 @@
 Dockerfile for Python 3.5.0b4
 
-Build with:
+Build without dockerfile:
+
+docker build -t ppierson/python github.com/ppiersonbt/python-docker.git
+
+Build with dockerfile:
 
 docker build -t 'python' .
 
